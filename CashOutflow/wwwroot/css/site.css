@@ -14,9 +14,54 @@
 
 html {
   position: relative;
-  min-height: 100%;
+  min-height: 80%;
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+}
+
+
+/* ####### Footer ###### */
+footer {
+    background-color: var(--ml-2);
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+   
+}
+
+
+.footerWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    
+}
+
+footer p {
+    font-family: var(--font-2);
+    font-size: 1.5rem;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+footer .icons {
+    margin-top:30px;
+}
+
+footer .icons i {
+    margin: 20px;
+    font-size: 30px;
+    color: var(--ml-4);
+}
+
+footer .icons i:hover {
+    color: var(--ancient-2);
+     transition: 1s;
 }
