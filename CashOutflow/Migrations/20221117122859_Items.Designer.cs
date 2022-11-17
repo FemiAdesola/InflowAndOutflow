@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CashOutflow.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221117105103_Items")]
+    [Migration("20221117122859_Items")]
     partial class Items
     {
         /// <inheritdoc />
@@ -24,7 +24,7 @@ namespace CashOutflow.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CashOutflow.Models.Items", b =>
+            modelBuilder.Entity("CashOutflow.Models.Item", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

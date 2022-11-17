@@ -1,28 +1,40 @@
-﻿<Properties StartupConfiguration="{702DAC08-E2A3-49FF-802D-442B35654BDC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Controllers/AppointmentController.cs">
+﻿<Properties StartupConfiguration="{C0E123E8-B329-4C01-A9AF-4A13807C703B}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Views/Shared/_Layout.cshtml">
     <Files>
+      <File FileName="CashOutflow/Dockerfile" Line="1" Column="1" IsPinned="True" />
+      <File FileName="CashOutflow/Migrations/ApplicationDbContextModelSnapshot.cs" Line="37" Column="1" IsPinned="True" />
       <File FileName="CashOutflow/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="CashOutflow/Views/Home/Index.cshtml" Line="10" Column="1" />
-      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" Line="61" Column="1" />
-      <File FileName="CashOutflow/wwwroot/css/site.css" Line="10" Column="36" />
-      <File FileName="CashOutflow/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="CashOutflow/Controllers/ApointmentController.cs" Line="30" Column="1" />
+      <File FileName="CashOutflow/Views/Home/Index.cshtml" />
+      <File FileName="CashOutflow/wwwroot/css/site.css" />
+      <File FileName="CashOutflow/Views/_ViewStart.cshtml" Line="5" Column="1" />
       <File FileName="CashOutflow/Views/Appointment/Index.cshtml" Line="9" Column="1" />
+      <File FileName="CashOutflow/Models/Items.cs" Line="16" Column="1" />
+      <File FileName="CashOutflow/appsettings.json" Line="14" Column="1" />
+      <File FileName="CashOutflow/Controllers/ItemController.cs" Line="29" Column="6" />
+      <File FileName="CashOutflow/Data/ApplicationDbContext.cs" Line="23" Column="1" />
+      <File FileName="CashOutflow/Controllers/AppointmentController.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Migrations/20221117105103_Items.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Views/Item/Index.cshtml" Line="4" Column="1" />
+      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" Line="29" Column="32" />
+      <File FileName="CashOutflow/Views/_ViewImports.cshtml" Line="5" Column="1" />
+      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CashOutflow" expanded="True">
             <Node name="CashOutflow" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AppointmentController.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Appointment" expanded="True" />
+                <Node name="Items" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" selected="True" />
+                </Node>
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,9 +42,10 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CashOutflow PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

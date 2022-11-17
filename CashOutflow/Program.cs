@@ -3,8 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+
 
 // To add data to databse service
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -13,6 +12,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 }
 );
 
+// Add services to the container.
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
