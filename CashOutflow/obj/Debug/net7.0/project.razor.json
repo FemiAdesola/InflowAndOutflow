@@ -16560,6 +16560,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Appointment/Index.cshtml",
+      "TargetPath": "Views\\Appointment\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
