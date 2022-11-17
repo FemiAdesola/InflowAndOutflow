@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cashoutflow:
+    image: ${DOCKER_REGISTRY-}cashoutflow
+    build:
+      context: .
+      dockerfile: CashOutflow/Dockerfile

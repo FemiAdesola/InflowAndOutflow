@@ -1,0 +1,17 @@
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/CashOutflow.deps.json
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/CashOutflow.runtimeconfig.json
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/appsettings.Development.json
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/appsettings.json
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/CashOutflow.staticwebassets.runtime.json
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/CashOutflow
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/CashOutflow.dll
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/Microsoft.EntityFrameworkCore.dll
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/Microsoft.Data.SqlClient.dll
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/Microsoft.Identity.Client.dll
+/Users/bc-macair033/Projects/CashOutflow/bin/Debug/CashOutflow.pdb
+/Users/bc-macair033/Projects/CashOutflow/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
+/Users/bc-macair033/Projects/CashOutflow/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/bc-macair033/Projects/CashOutflow/obj/Debug/docker-compose.dcproj.CopyComplete

@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{C0E123E8-B329-4C01-A9AF-4A13807C703B}|https">
+﻿<Properties StartupConfiguration="{702DAC08-E2A3-49FF-802D-442B35654BDC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Controllers/AppointmentController.cs">
     <Files>
       <File FileName="CashOutflow/Controllers/HomeController.cs" Line="1" Column="1" />
@@ -30,10 +30,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CashOutflow PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

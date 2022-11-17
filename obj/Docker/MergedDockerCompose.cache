@@ -1,0 +1,16 @@
+services:
+  cashoutflow:
+    build:
+      context: /Users/bc-macair033/Projects/CashOutflow
+      dockerfile: CashOutflow/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: cashoutflow
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/bc-macair033/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/bc-macair033/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
