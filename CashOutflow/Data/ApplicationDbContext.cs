@@ -1,5 +1,10 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using CashOutflow.Models;
+
 
 namespace CashOutflow.Data
 {
@@ -9,6 +14,9 @@ namespace CashOutflow.Data
         {
 
         }
+
+        public DbSet<Items> Items { get; set; }
+
     }
 }
 
