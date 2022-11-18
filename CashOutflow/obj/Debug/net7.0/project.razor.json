@@ -16575,6 +16575,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Item/Create.cshtml",
+      "TargetPath": "Views\\Item\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

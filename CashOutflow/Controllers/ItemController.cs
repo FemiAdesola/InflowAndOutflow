@@ -27,11 +27,10 @@ namespace CashOutflow.Controllers
             return View(objList);
         }
 
-        //public IActionResult Index()
-        //{
-
-        //    return View();
-        //}
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
 
