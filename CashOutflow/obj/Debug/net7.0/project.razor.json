@@ -16610,6 +16610,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Expenses/Update.cshtml",
+      "TargetPath": "Views\\Expenses\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Item/Index.cshtml",
       "TargetPath": "Views\\Item\\Index.cshtml",
       "FileKind": "mvc"

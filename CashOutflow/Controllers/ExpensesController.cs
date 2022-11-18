@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CashOutflow.Data;
+
 using CashOutflow.Models;
 using Microsoft.AspNetCore.Mvc;
+
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -73,6 +75,7 @@ namespace CashOutflow.Controllers
         public IActionResult DeletePost(int? id)
         {
             // for passing data to database
+
             var obj = _db.Expenses.Find(id);
             if (obj == null)
             {
@@ -81,6 +84,33 @@ namespace CashOutflow.Controllers
             _db.Expenses.Remove(obj);
             _db.SaveChanges();
             return RedirectToAction("Index");
+
+        }
+
+        //Get-update  ########################################
+
+        public IActionResult Update(int? id)
+        {
+            //ExpenseVM expenseVM = new ExpenseVM()
+            //{
+            //    Expense = new Expense(),
+            //    TypeDropDown = _db.ExpenseTypes.Select(i => new SelectListItem
+            //    {
+            //        Text = i.Name,
+            //        Value = i.Id.ToString()
+            //    })
+            //};
+
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var obj = _db.Expenses.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
 
         }
     }
