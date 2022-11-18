@@ -39,9 +39,13 @@ namespace CashOutflow.Controllers
         public IActionResult Create(Expenses obj)
         {
             // for passing data to database
-            _db.Expenses.Add(obj);
-            _db.SaveChanges();
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                _db.Expenses.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
         }
     }
 }
