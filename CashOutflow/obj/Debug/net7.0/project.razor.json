@@ -16580,6 +16580,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Expenses/Delete.cshtml",
+      "TargetPath": "Views\\Expenses\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Item/Create.cshtml",
       "TargetPath": "Views\\Item\\Create.cshtml",
       "FileKind": "mvc"
