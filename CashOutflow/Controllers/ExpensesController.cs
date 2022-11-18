@@ -113,6 +113,22 @@ namespace CashOutflow.Controllers
             return View(obj);
 
         }
+
+
+        //post-update  ########################################
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Update(Expenses obj)
+        {
+            // for passing data to database
+            if (ModelState.IsValid)
+            {
+                _db.Expenses.Update(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
     }
 }
 
