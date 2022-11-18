@@ -1,27 +1,31 @@
 ﻿<Properties StartupConfiguration="{C0E123E8-B329-4C01-A9AF-4A13807C703B}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Views/Item/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Views/Expenses/Index.cshtml">
     <Files>
-      <File FileName="CashOutflow/Migrations/ApplicationDbContextModelSnapshot.cs" Line="45" Column="1" IsPinned="True" />
+      <File FileName="CashOutflow/Migrations/ApplicationDbContextModelSnapshot.cs" Line="65" Column="1" IsPinned="True" />
       <File FileName="CashOutflow/Controllers/HomeController.cs" />
       <File FileName="CashOutflow/Views/Home/Index.cshtml" />
       <File FileName="CashOutflow/wwwroot/css/site.css" />
       <File FileName="CashOutflow/Views/_ViewStart.cshtml" />
       <File FileName="CashOutflow/Views/Appointment/Index.cshtml" />
-      <File FileName="CashOutflow/Models/Items.cs" Line="17" Column="1" />
       <File FileName="CashOutflow/appsettings.json" />
-      <File FileName="CashOutflow/Controllers/ItemController.cs" Line="31" Column="10" />
-      <File FileName="CashOutflow/Data/ApplicationDbContext.cs" Line="23" Column="1" />
-      <File FileName="CashOutflow/Controllers/AppointmentController.cs" Line="1" Column="1" />
-      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" Line="34" Column="26" />
-      <File FileName="CashOutflow/Views/_ViewImports.cshtml" />
-      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml.css" Line="1" Column="1" />
-      <File FileName="CashOutflow/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="CashOutflow/Views/Item/Index.cshtml" Line="25" Column="76" />
-      <File FileName="CashOutflow/Dockerfile" Line="23" Column="1" />
-      <File FileName="CashOutflow/Migrations/20221117141724_AddItemsLender.Designer.cs" Line="1" Column="1" />
-      <File FileName="CashOutflow/Migrations/20221117122859_Items.cs" Line="1" Column="1" />
-      <File FileName="CashOutflow/Program.cs" Line="14" Column="1" />
-      <File FileName="CashOutflow/Views/Item/Create.cshtml" Line="2" Column="16" />
+      <File FileName="CashOutflow/Controllers/ItemController.cs" Line="30" Column="21" />
+      <File FileName="CashOutflow/Data/ApplicationDbContext.cs" Line="24" Column="1" />
+      <File FileName="CashOutflow/Controllers/AppointmentController.cs" />
+      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" Line="32" Column="118" />
+      <File FileName="CashOutflow/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="CashOutflow/Models/ErrorViewModel.cs" />
+      <File FileName="CashOutflow/Views/Item/Index.cshtml" Line="9" Column="44" />
+      <File FileName="CashOutflow/Dockerfile" />
+      <File FileName="CashOutflow/Migrations/20221117122859_Items.cs" />
+      <File FileName="CashOutflow/Program.cs" />
+      <File FileName="CashOutflow/Views/Item/Create.cshtml" Line="30" Column="27" />
+      <File FileName="CashOutflow/Models/Item.cs" Line="21" Column="1" />
+      <File FileName="CashOutflow/Models/Expenses.cs" Line="25" Column="9" />
+      <File FileName="CashOutflow/Controllers/ExpensesController.cs" Line="41" Column="44" />
+      <File FileName="CashOutflow/Views/Expenses/Create.cshtml" Line="8" Column="15" />
+      <File FileName="CashOutflow/Views/Expenses/Index.cshtml" Line="50" Column="18" />
+      <File FileName="CashOutflow/Views/Shared/_ValidationScriptsPartial.cshtml" Line="4" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,8 +35,10 @@
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Item" expanded="True">
+                <Node name="Expenses" expanded="True">
                   <Node name="Index.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True">

@@ -30,14 +30,21 @@ for getting data from database*@
                 <tr>
                     <th>Expenses Name</th>
                     <th>Amount</th>
+                    <th>Changes</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var expense in Model)
                 {
                     <tr>
-                        <td width="50%">@expense.ExpensesName</td>
-                        <td width="50%">@expense.Amount</td>
+                        <td width="35%">@expense.ExpensesName</td>
+                        <td width="35%">@expense.Amount</td>
+                        <td width="30%">
+                            <div class="w-100 btn-group role="group">
+                                <a class="btn btn-outline-danger mx-1" asp-area="" asp-controller="Expenses" asp-route-Id="@expense.Id" asp-action="Delete">Delete</a>
+                                <a class="btn btn-outline-primary mx-1" asp-area="" asp-controller="Expenses" asp-route-Id="@expense.Id" asp-action="Edit">Edit</a>
+                            </div>
+                        </td>
 
                     </tr>
 
