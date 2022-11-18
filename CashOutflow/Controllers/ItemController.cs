@@ -27,9 +27,21 @@ namespace CashOutflow.Controllers
             return View(objList);
         }
 
+        //GET-Create
         public IActionResult Create()
         {
             return View();
+        }
+
+        //Post-Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Item obj)
+        {
+            // for passing data to database
+            _db.Items.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
