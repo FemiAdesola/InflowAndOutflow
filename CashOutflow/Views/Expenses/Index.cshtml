@@ -6,16 +6,16 @@
 
 for getting data from database*@
 
-@model IEnumerable<CashOutflow.Models.Item>
+@model IEnumerable<CashOutflow.Models.Expenses>
 
 
 <div class="container p-3">
     <div class="row pt-4">
         <div class="col-6">
-            <h2 class="text-primary">Lend Items List</h2>
+            <h2 class="text-primary">Expenses List</h2>
         </div>
         <div class="col-6 text-end">
-            <a class="btn btn-outline-primary" asp-area="" asp-controller="Item" asp-action="Create">Create new Item</a>
+            <a class="btn btn-outline-primary" asp-area="" asp-controller="Expenses" asp-action="Create">Create new Expenses</a>
         </div>
     </div>
     <br />
@@ -25,18 +25,17 @@ for getting data from database*@
     <table class="table table-bordered table-striped", style="width:100%;">
         <thead>
              <tr>
-                   <th>Item Name</th>
-                  <th>Debtor</th>
-                   <th>Lender</th>
+                   <th>Expenses Name</th>
+                  <th>Amount</th>
             </tr>
          </thead>
          <tbody>
-             @foreach (var item in Model)
+             @foreach (var expense in Model)
              {
                  <tr>
-                     <td width="30%">@item.ItemName</td>
-                     <td width="30%">@item.Debtor</td>
-                     <td width="30%">@item.Lender</td>
+                     <td width="50%">@expense.ExpensesName</td>
+                     <td width="50%">@expense.Amount</td>
+
                  </tr>
 
              }
@@ -45,7 +44,7 @@ for getting data from database*@
 }
 else
 {
-            <p> No items created yet </p>
+            <p> No expenses created yet </p>
 }
    
    
