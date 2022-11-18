@@ -81,6 +81,7 @@ namespace CashOutflow.Controllers
             {
                 return NotFound();
             }
+
             _db.Expenses.Remove(obj);
             _db.SaveChanges();
             return RedirectToAction("Index");
@@ -91,16 +92,6 @@ namespace CashOutflow.Controllers
 
         public IActionResult Update(int? id)
         {
-            //ExpenseVM expenseVM = new ExpenseVM()
-            //{
-            //    Expense = new Expense(),
-            //    TypeDropDown = _db.ExpenseTypes.Select(i => new SelectListItem
-            //    {
-            //        Text = i.Name,
-            //        Value = i.Id.ToString()
-            //    })
-            //};
-
             if (id == null || id == 0)
             {
                 return NotFound();
@@ -125,7 +116,8 @@ namespace CashOutflow.Controllers
             {
                 _db.Expenses.Update(obj);
                 _db.SaveChanges();
-                return RedirectToAction("Index");
+                //return RedirectToAction("Index");
+                return RedirectToAction(nameof(Index));
             }
             return View(obj);
         }

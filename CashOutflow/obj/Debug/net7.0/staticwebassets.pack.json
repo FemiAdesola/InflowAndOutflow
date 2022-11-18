@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/wwwroot/images/Book.png",
+      "PackagePath": "staticwebassets/images/Book.png"
+    },
+    {
       "Id": "/Users/bc-macair033/Projects/CashOutflow/CashOutflow/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
