@@ -9,34 +9,34 @@
         <div class="row">
             <div class="col-12">
                 <div class="form-group row">
-                    <div class="col-6">
+                    <div class="col-4">
                         <label asp-for="ItemName"></label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <label asp-for="Debtor"></label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <label asp-for="Lender"></label>
                     </div>
 
                 </div>
                 <div class="form-group row">
-                    <div class="col-6">
+                    <div class="col-4">
                         <input asp-for="ItemName" class="form-control" />
                         <span asp-validation-for="Debtor" class="text-danger"></span>
-                        <span asp-validation-for="Lender" class="text-danger"></span>
                     </div>
-                    <div class="col-6">
-                        <input asp-for="Debtor" class="form-control" />
-                        <span asp-validation-for="Debtor" class="text-danger"></span>
-
-                        <input asp-for="Lender" class="form-control" />
-                        <span asp-validation-for="Lender" class="text-danger"></span>
-                    </div>
+                    <div class="col-4">
+                            <input asp-for="Debtor" class="form-control" />
+                            <span asp-validation-for="Debtor" class="text-danger"></span>
+                     </div>
+                     <div class="col-4">
+                            <input asp-for="Lender" class="form-control" />
+                            <span asp-validation-for="Lender" class="text-danger"></span>
+                      </div>
 
                 </div>
                 <div class="form-group row pt-3">
-                    <div class="col-8 offset-2 row">
+                    <div class="col-6 offset-2 row">
                         <div class="col">
                             <input type="submit" class="btn btn-info w-75" value="Update" />
                         </div>
