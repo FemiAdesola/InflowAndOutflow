@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{C0E123E8-B329-4C01-A9AF-4A13807C703B}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Controllers/ExpensesController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="CashOutflow/Migrations/ApplicationDbContextModelSnapshot.cs" Line="65" Column="1" IsPinned="True" />
       <File FileName="CashOutflow/Controllers/HomeController.cs" />
-      <File FileName="CashOutflow/Views/Home/Index.cshtml" />
-      <File FileName="CashOutflow/wwwroot/css/site.css" />
+      <File FileName="CashOutflow/Views/Home/Index.cshtml" Line="5" Column="1" />
+      <File FileName="CashOutflow/wwwroot/css/site.css" Line="83" Column="17" />
       <File FileName="CashOutflow/Views/_ViewStart.cshtml" />
       <File FileName="CashOutflow/Views/Appointment/Index.cshtml" />
       <File FileName="CashOutflow/appsettings.json" />
       <File FileName="CashOutflow/Controllers/ItemController.cs" />
       <File FileName="CashOutflow/Data/ApplicationDbContext.cs" />
       <File FileName="CashOutflow/Controllers/AppointmentController.cs" />
-      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" />
+      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" Line="16" Column="117" />
       <File FileName="CashOutflow/Views/_ViewImports.cshtml" />
       <File FileName="CashOutflow/Views/Shared/_Layout.cshtml.css" />
       <File FileName="CashOutflow/Models/ErrorViewModel.cs" />
@@ -21,12 +21,13 @@
       <File FileName="CashOutflow/Program.cs" />
       <File FileName="CashOutflow/Views/Item/Create.cshtml" />
       <File FileName="CashOutflow/Models/Item.cs" />
-      <File FileName="CashOutflow/Models/Expenses.cs" />
-      <File FileName="CashOutflow/Controllers/ExpensesController.cs" Line="67" Column="10" />
-      <File FileName="CashOutflow/Views/Expenses/Create.cshtml" Line="18" Column="1" />
-      <File FileName="CashOutflow/Views/Expenses/Index.cshtml" Line="55" Column="9" />
+      <File FileName="CashOutflow/Models/Expenses.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Controllers/ExpensesController.cs" Line="84" Column="1" />
+      <File FileName="CashOutflow/Views/Expenses/Create.cshtml" Line="44" Column="11" />
+      <File FileName="CashOutflow/Views/Expenses/Index.cshtml" Line="39" Column="25" />
       <File FileName="CashOutflow/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="CashOutflow/Views/Expenses/Delete.cshtml" Line="48" Column="1" />
+      <File FileName="CashOutflow/Views/Expenses/Delete.cshtml" Line="13" Column="40" />
+      <File FileName="CashOutflow/Views/Expenses/Update.cshtml" Line="3" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -34,14 +35,9 @@
           <Node name="CashOutflow" expanded="True">
             <Node name="CashOutflow" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True">
-                <Node name="ExpensesController.cs" selected="True" />
-              </Node>
               <Node name="Data" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Expenses" expanded="True" />
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="_Layout.cshtml" expanded="True" />
                 </Node>
@@ -50,12 +46,17 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CashOutflow PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Controllers/ExpensesController.cs" relfile="CashOutflow/Controllers/ExpensesController.cs" line="55" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CashOutflow
 build_property.RootNamespace = CashOutflow
-build_property.ProjectDir = /Users/bc-macair033/Projects/CashOutflow/CashOutflow/
+build_property.ProjectDir = /Users/femioyinloye/Projects/CashOutflow/CashOutflow/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/bc-macair033/Projects/CashOutflow/CashOutflow
+build_property.MSBuildProjectDirectory = /Users/femioyinloye/Projects/CashOutflow/CashOutflow
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Appointment/Index.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Appointment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXBwb2ludG1lbnQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Expenses/Create.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Expenses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZW5zZXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Expenses/Delete.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Expenses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZW5zZXMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Expenses/Index.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Expenses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZW5zZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Expenses/Update.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Expenses/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXhwZW5zZXMvVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Home/Index.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Home/Privacy.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Item/Create.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Item/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Item/Index.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Item/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSXRlbS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Shared/Error.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/_ViewImports.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/_ViewStart.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bc-macair033/Projects/CashOutflow/CashOutflow/Views/Shared/_Layout.cshtml]
+[/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gr6ryylb52
