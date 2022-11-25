@@ -17,3 +17,9 @@
 ---
 ## Expenses page
 ![Expenses](/img/Expenses.png)
+
+## Lend page
+![LendItem](/img/LendItem.png)
+
+## Delete Item page
+![Delete](/img/Delete.png)
