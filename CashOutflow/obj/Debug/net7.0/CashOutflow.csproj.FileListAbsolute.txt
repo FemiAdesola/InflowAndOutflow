@@ -148,3 +148,6 @@
 /Users/femioyinloye/Projects/CashOutflow/CashOutflow/obj/Debug/net7.0/CashOutflow.pdb
 /Users/femioyinloye/Projects/CashOutflow/CashOutflow/obj/Debug/net7.0/CashOutflow.genruntimeconfig.cache
 /Users/femioyinloye/Projects/CashOutflow/CashOutflow/obj/Debug/net7.0/ref/CashOutflow.dll
+/Users/femioyinloye/Projects/CashOutflow/CashOutflow/bin/Debug/net7.0/EFCore.NamingConventions.dll
+/Users/femioyinloye/Projects/CashOutflow/CashOutflow/bin/Debug/net7.0/Npgsql.dll
+/Users/femioyinloye/Projects/CashOutflow/CashOutflow/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

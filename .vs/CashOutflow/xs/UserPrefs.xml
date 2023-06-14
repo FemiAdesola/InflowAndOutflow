@@ -1,50 +1,57 @@
 ﻿<Properties StartupConfiguration="{C0E123E8-B329-4C01-A9AF-4A13807C703B}|https">
   <MonoDevelop.Ide.ItemProperties.CashOutflow PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/femioyinloye/Projects/CashOutflow/CashOutflow/Controllers/ExpensesController.cs" relfile="CashOutflow/Controllers/ExpensesController.cs" line="55" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Migrations/20221117122859_Items.Designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CashOutflow/Views/Item/Delete.cshtml">
     <Files>
       <File FileName="CashOutflow/Migrations/ApplicationDbContextModelSnapshot.cs" Line="65" Column="1" IsPinned="True" />
-      <File FileName="CashOutflow/Controllers/HomeController.cs" />
+      <File FileName="CashOutflow/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="CashOutflow/Views/Home/Index.cshtml" />
       <File FileName="CashOutflow/wwwroot/css/site.css" />
       <File FileName="CashOutflow/Views/_ViewStart.cshtml" />
-      <File FileName="CashOutflow/Views/Appointment/Index.cshtml" />
+      <File FileName="CashOutflow/Views/Appointment/Index.cshtml" Line="1" Column="1" />
       <File FileName="CashOutflow/appsettings.json" />
-      <File FileName="CashOutflow/Controllers/ItemController.cs" />
-      <File FileName="CashOutflow/Data/ApplicationDbContext.cs" />
-      <File FileName="CashOutflow/Controllers/AppointmentController.cs" />
-      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" Line="16" Column="117" />
+      <File FileName="CashOutflow/Controllers/ItemController.cs" Line="124" Column="10" />
+      <File FileName="CashOutflow/Data/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Controllers/AppointmentController.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Views/Shared/_Layout.cshtml" />
       <File FileName="CashOutflow/Views/_ViewImports.cshtml" />
       <File FileName="CashOutflow/Views/Shared/_Layout.cshtml.css" />
       <File FileName="CashOutflow/Models/ErrorViewModel.cs" />
-      <File FileName="CashOutflow/Views/Item/Index.cshtml" />
+      <File FileName="CashOutflow/Views/Item/Index.cshtml" Line="36" Column="22" />
       <File FileName="CashOutflow/Dockerfile" />
       <File FileName="CashOutflow/Migrations/20221117122859_Items.cs" />
-      <File FileName="CashOutflow/Program.cs" />
-      <File FileName="CashOutflow/Views/Item/Create.cshtml" />
-      <File FileName="CashOutflow/Models/Item.cs" />
-      <File FileName="CashOutflow/Models/Expenses.cs" />
-      <File FileName="CashOutflow/Controllers/ExpensesController.cs" />
-      <File FileName="CashOutflow/Views/Expenses/Create.cshtml" />
-      <File FileName="CashOutflow/Views/Expenses/Index.cshtml" />
+      <File FileName="CashOutflow/Program.cs" Line="38" Column="1" />
+      <File FileName="CashOutflow/Views/Item/Create.cshtml" Line="1" Column="1" />
+      <File FileName="CashOutflow/Models/Item.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Models/Expenses.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Controllers/ExpensesController.cs" Line="61" Column="14" />
+      <File FileName="CashOutflow/Views/Expenses/Create.cshtml" Line="48" Column="2" />
+      <File FileName="CashOutflow/Views/Expenses/Index.cshtml" Line="34" Column="22" />
       <File FileName="CashOutflow/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="CashOutflow/Views/Expenses/Delete.cshtml" />
-      <File FileName="CashOutflow/Views/Expenses/Update.cshtml" />
+      <File FileName="CashOutflow/Views/Expenses/Delete.cshtml" Line="10" Column="26" />
+      <File FileName="CashOutflow/Views/Expenses/Update.cshtml" Line="11" Column="45" />
       <File FileName="CashOutflow/Migrations/20221117122859_Items.Designer.cs" Line="1" Column="1" />
+      <File FileName="CashOutflow/Views/Item/Update.cshtml" Line="36" Column="1" />
+      <File FileName="CashOutflow/Views/Item/Delete.cshtml" Line="33" Column="27" />
+      <File FileName="CashOutflow/Controllers/ReturnTypeController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CashOutflow" expanded="True">
-            <Node name="CashOutflow" expanded="True" selected="True">
+            <Node name="CashOutflow" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Expenses" expanded="True" />
+                <Node name="Item" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

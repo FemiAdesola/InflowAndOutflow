@@ -1,0 +1,8 @@
+# User-specific files
+CashOutflow/appsettings.json
+CashOutflow/appsettings.*.json
+CashOutflow/obj
+CashOutflow/bin
+CashOutflow/Migrations
+
+/obj

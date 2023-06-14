@@ -10,11 +10,11 @@ namespace CashOutflow.Models
     public class Item	{
 		[Key]
 		public int Id { get; set; }
-        public string Debtor { get; set; }
-        public string Lender { get; set; }
+        public string? Debtor { get; set; }
+        public string? Lender { get; set; }
 
         [DisplayName("Item name")]
-        public string ItemName { get; set; }
+        public string? ItemName { get; set; } 
     }
 }
 
